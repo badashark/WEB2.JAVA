@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid {
+        border : 5px solid pink;
+        display : grid;
+        grid-template-columns: 1fr 1fr;
+        /*
+         1fr은 남는 공간을 다쓴다는 뜻 2fr 1fr 하면 화면을 2:1로 쓰게 됨. -> 늘이거나 줄여도 이 비율을 유지함
+        */
+      }
+      div {
+        border : 5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id = "grid">
+      <div>넥스터즈 지원자</div>
+      <div>안녕하세요 넥스터즈에서 코딩 프로젝트를 하기 위해 노력중인 김민룡입니다. 쉬워보이지만 생각보다 새로운 지식이 많아야 이렇게 만들 수 있더라고요.</div>
+    </div>
+  </body>
+</html>
